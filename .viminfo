@@ -11,68 +11,39 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\V\<dfsd\>
-
-# Last Substitute String:
-$
+~MSle0~/https:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1638841834,,"wq"
+|2,0,1640871187,,"wq"
 :q
-|2,0,1638776247,,"q"
-:ClearBookmarks Music
-|2,0,1637639662,,"ClearBookmarks Music"
-:ClearBookmarks Public
-|2,0,1637639653,,"ClearBookmarks Public"
-:ClearBookmarks Library
-|2,0,1637639641,,"ClearBookmarks Library"
-:Bookmark Music
-|2,0,1637639608,,"Bookmark Music"
-:Bookmark Public
-|2,0,1637639582,,"Bookmark Public"
-:Bookmark 
-|2,0,1637639542,,"Bookmark "
-:w
-|2,0,1637638892,,"w"
-:uuuu
-|2,0,1637637628,,"uuuu"
-:PluginInstall
-|2,0,1637637601,,"PluginInstall"
-:NERDTree
-|2,0,1637547129,,"NERDTree"
-:NerdTree
-|2,0,1637547097,,"NerdTree"
-:vim
-|2,0,1637546908,,"vim"
+|2,0,1640590134,,"q"
+:weq
+|2,0,1640589742,,"weq"
+:filetype=vim
+|2,0,1640245583,,"filetype=vim"
+:filetype=vim.
+|2,0,1640245579,,"filetype=vim."
+:verbose set filetype
+|2,0,1640245535,,"verbose set filetype"
+:verbose map
+|2,0,1640245388,,"verbose map"
+:call vimtex#init()
+|2,0,1640245374,,"call vimtex#init()"
+::verbose map
+|2,0,1640245272,,":verbose map"
 :!q
-|2,0,1637509722,,"!q"
-:set paste
-|2,0,1637503030,,"set paste"
-:set nopaste
-|2,0,1637502198,,"set nopaste"
-:h vundle
-|2,0,1637499902,,"h vundle"
-:Helptags
-|2,0,1637499830,,"Helptags"
-:set noun
-|2,0,1636266547,,"set noun"
-:set nonu
-|2,0,1636266542,,"set nonu"
-:vim --version
-|2,0,1636266442,,"vim --version"
+|2,0,1640245166,,"!q"
+:PluginInstall
+|2,0,1640245125,,"PluginInstall"
+:w
+|2,0,1640062500,,"w"
+:we
+|2,0,1640052029,,"we"
 
 # Search String History (newest to oldest):
-?/set last
-|2,1,1637638856,47,"set last"
-?/set t
-|2,1,1637638557,47,"set t"
-?/let
-|2,1,1637635810,47,"let"
-?/set lastst
-|2,1,1637635660,47,"set lastst"
-? @$
-|2,1,1637500387,,"@$"
+?/https://p0.meituan.net/movie/45be438368bb291e501dc523092f0ac8193424.jpg@106w_106h_1e_1c
+|2,1,1639663274,47,"https://p0.meituan.net/movie/45be438368bb291e501dc523092f0ac8193424.jpg@106w_106h_1e_1c"
 
 # Expression History (newest to oldest):
 
@@ -81,649 +52,788 @@ $
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-"0	LINE	0
-	:set tabstop=4
-	:set shiftwidth=4
-|3,0,0,1,2,0,1637500387,":set tabstop=4",":set shiftwidth=4"
-"1	LINE	0
-	王亚平
-	ggdG
+""1	LINE	0
+		HostName 101.35.165.69
+		User wyp_server
 	
+	# 腾讯云中Docker_Django镜像服务器
+	Host wyp_django_server
+		HostName 101.35.165.69
+		User wyp_django_server
+	    Port 20000
 	
-|3,0,1,1,4,0,1638410378,"王亚平","ggdG","",""
+	# 自建的Ubuntu:22.04服务器
+	Host ubuntu
+	    HostName 101.35.165.69
+	    User ubuntu
+	    Port 1213
+|3,1,1,1,14,0,1640784713,"	HostName 101.35.165.69","	User wyp_server","","# 腾讯云中Docker_Django镜像服务器","Host wyp_django_server","	HostName 101.35.165.69","	User wyp_django_server","    Port 20000","","# 自建的Ubuntu:22.04服务器","Host ubuntu","    HostName 101.35.165.69","    User ubuntu","    Port 1213"
 "2	LINE	0
-	dfsd
-	d
-	dsfdsf
-	
-	dsf
-	df
-	ds
-	f
-	sdgjj
-|3,0,2,1,9,0,1637650406,"dfsd","d","dsfdsf","","dsf","df","ds","f","sdgjj"
-"3	CHAR	0
-	set t_Co=256
-	
-|3,0,3,0,2,0,1637639977,"set t_Co=256",""
+	Host wyp_server
+|3,0,2,1,1,0,1640784713,"Host wyp_server"
+"3	LINE	0
+	# 腾讯云服务器
+|3,0,3,1,1,0,1640784709,"# 腾讯云服务器"
 "4	LINE	0
-	let g:airline_symbols.dirty= '⚡'
-|3,0,4,1,1,0,1637639087,"let g:airline_symbols.dirty= '⚡'"
+	# 忽略.idea文件
+|3,0,4,1,1,0,1640590131,"# 忽略.idea文件"
 "5	LINE	0
-	let g:airline_symbols.maxlinenr = ''
-|3,0,5,1,1,0,1637639086,"let g:airline_symbols.maxlinenr = ''"
+	**.idea
+|3,0,5,1,1,0,1640590129,"**.idea"
 "6	LINE	0
-	let g:airline_symbols.linenr = '☰'
-|3,0,6,1,1,0,1637639085,"let g:airline_symbols.linenr = '☰'"
+	" info).
+	syntax enable
+	
+	" Viewer options: One may configure the viewer either by specifying a built-in
+	" viewer method:
+	let g:vimtex_view_method = 'zathura'
+	
+	" Or with a generic interface:
+	let g:vimtex_view_general_viewer = 'okular'
+	let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+	let g:vimtex_view_general_options_latexmk = '--unique'
+	
+	" VimTeX uses latexmk as the default compiler backend. If you use it, which is
+	" strongly recommended, you probably don't need to configure anything. If you
+	" want another compiler backend, you can change it as follows. The list of
+	" supported backends and further explanation is provided in the documentation,
+	" see ":help vimtex-compiler".
+	let g:vimtex_compiler_method = 'latexrun'
+	
+	" Most VimTeX mappings rely on localleader and this can be changed with the
+	" following line. The default is usually fine and is the symbol "\".
+	let maplocalleader = ","
+	
+|3,0,6,1,23,0,1640589553,"\" info).","syntax enable","","\" Viewer options: One may configure the viewer either by specifying a built-in","\" viewer method:","let g:vimtex_view_method = 'zathura'","","\" Or with a generic interface:","let g:vimtex_view_general_viewer = 'okular'","let g:vimtex_view_general_options = '--unique file:@pdf\\#src:@line@tex'","let g:vimtex_view_general_options_latexmk = '--unique'","",>81
+|<"\" VimTeX uses latexmk as the default compiler backend. If you use it, which is","\" strongly recommended, you probably don't need to configure anything. If you","\" want another compiler backend, you can change it as follows. The list of","\" supported backends and further explanation is provided in the documentation,","\" see \":help vimtex-compiler\".","let g:vimtex_compiler_method = 'latexrun'","","\" Most VimTeX mappings rely on localleader and this can be changed with the",>74
+|<"\" following line. The default is usually fine and is the symbol \"\\\".","let maplocalleader = \",\"",""
 "7	LINE	0
-	let g:airline_symbols.readonly = ''
-|3,0,7,1,1,0,1637639084,"let g:airline_symbols.readonly = ''"
+	" VimTeX features will not work (see ":help vimtex-requirements" for more
+|3,0,7,1,1,0,1640589552,"\" VimTeX features will not work (see \":help vimtex-requirements\" for more"
 "8	LINE	0
-	let g:airline_symbols.branch = ''
-|3,0,8,1,1,0,1637639084,"let g:airline_symbols.branch = ''"
+	" This enables Vim's and neovim's syntax-related features. Without this, some
+|3,0,8,1,1,0,1640589552,"\" This enables Vim's and neovim's syntax-related features. Without this, some"
 "9	LINE	0
-	let g:airline_right_alt_sep = ''
-|3,0,9,1,1,0,1637639083,"let g:airline_right_alt_sep = ''"
-""-	CHAR	0
-	%
-|3,1,36,0,1,0,1638502899,"%"
+	
+|3,0,9,1,1,0,1640589551,""
+"-	CHAR	0
+	
+	
+	                                    
+|3,0,36,0,3,0,1640062374,"","","                                    "
 
 # 文件标记:
-'0  316  0  ~/.viminfo
-|4,48,316,0,1638841834,"~/.viminfo"
-'1  259  23  ~/.vimrc
-|4,49,259,23,1638841794,"~/.vimrc"
-'2  1  0  /opt/homebrew/etc/gitconfig
-|4,50,1,0,1638777351,"/opt/homebrew/etc/gitconfig"
-'3  1  0  ~/.gitconfig
-|4,51,1,0,1638776308,"~/.gitconfig"
-'4  1  0  ~/.gitconfig
-|4,52,1,0,1638776247,"~/.gitconfig"
-'5  1  0  ~/.git-credentials
-|4,53,1,0,1638776162,"~/.git-credentials"
-'6  5  16  ~/.gitconfig
-|4,54,5,16,1638776154,"~/.gitconfig"
-'7  5  16  ~/.gitconfig
-|4,55,5,16,1638776154,"~/.gitconfig"
-'8  5  16  ~/.gitconfig
-|4,56,5,16,1638776154,"~/.gitconfig"
-'9  5  16  ~/.gitconfig
-|4,57,5,16,1638776154,"~/.gitconfig"
+'0  10  13  ~/.ssh/config
+|4,48,10,13,1640871187,"~/.ssh/config"
+'1  4  14  ~/.ssh/config
+|4,49,4,14,1640848901,"~/.ssh/config"
+'2  4  14  ~/.ssh/config
+|4,50,4,14,1640848901,"~/.ssh/config"
+'3  4  14  ~/.ssh/config
+|4,51,4,14,1640847182,"~/.ssh/config"
+'4  4  14  ~/.ssh/config
+|4,52,4,14,1640847182,"~/.ssh/config"
+'5  4  18  ~/.ssh/config
+|4,53,4,18,1640846742,"~/.ssh/config"
+'6  4  18  ~/.ssh/config
+|4,54,4,18,1640846742,"~/.ssh/config"
+'7  4  18  ~/.ssh/config
+|4,55,4,18,1640846742,"~/.ssh/config"
+'8  4  18  ~/.ssh/config
+|4,56,4,18,1640846742,"~/.ssh/config"
+'9  4  18  ~/.ssh/config
+|4,57,4,18,1640846050,"~/.ssh/config"
 
 # 跳转列表 (从新到旧):
--'  316  0  ~/.viminfo
-|4,39,316,0,1638841834,"~/.viminfo"
--'  247  0  ~/.viminfo
-|4,39,247,0,1638841798,"~/.viminfo"
--'  259  23  ~/.vimrc
-|4,39,259,23,1638841794,"~/.vimrc"
--'  259  23  ~/.vimrc
-|4,39,259,23,1638841794,"~/.vimrc"
--'  1  0  /opt/homebrew/etc/gitconfig
-|4,39,1,0,1638777351,"/opt/homebrew/etc/gitconfig"
--'  1  0  /opt/homebrew/etc/gitconfig
-|4,39,1,0,1638777351,"/opt/homebrew/etc/gitconfig"
--'  1  0  /opt/homebrew/etc/gitconfig
-|4,39,1,0,1638777351,"/opt/homebrew/etc/gitconfig"
--'  1  0  /opt/homebrew/etc/gitconfig
-|4,39,1,0,1638777351,"/opt/homebrew/etc/gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776308,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1638776247,"~/.gitconfig"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  1  0  ~/.git-credentials
-|4,39,1,0,1638776162,"~/.git-credentials"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  5  16  ~/.gitconfig
-|4,39,5,16,1638776154,"~/.gitconfig"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
--'  1  0  ~/.git
-|4,39,1,0,1638776142,"~/.git"
+-'  10  13  ~/.ssh/config
+|4,39,10,13,1640871187,"~/.ssh/config"
+-'  4  14  ~/.ssh/config
+|4,39,4,14,1640871112,"~/.ssh/config"
+-'  4  14  ~/.ssh/config
+|4,39,4,14,1640848901,"~/.ssh/config"
+-'  4  14  ~/.ssh/config
+|4,39,4,14,1640847182,"~/.ssh/config"
+-'  4  18  ~/.ssh/config
+|4,39,4,18,1640846742,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640846688,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640846688,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640846688,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640846688,"~/.ssh/config"
+-'  4  18  ~/.ssh/config
+|4,39,4,18,1640846050,"~/.ssh/config"
+-'  4  18  ~/.ssh/config
+|4,39,4,18,1640785238,"~/.ssh/config"
+-'  4  18  ~/.ssh/config
+|4,39,4,18,1640785058,"~/.ssh/config"
+-'  4  18  ~/.ssh/config
+|4,39,4,18,1640784998,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640784793,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640784793,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640784793,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640784793,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640784715,"~/.ssh/config"
+-'  1  0  ~/.ssh/config
+|4,39,1,0,1640780920,"~/.ssh/config"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
+-'  5  0  ~/NERD_tree_1
+|4,39,5,0,1640780331,"~/NERD_tree_1"
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~/.viminfo
-	*	1638841832	0
-	"	316	0
-
-> ~/.vimrc
-	*	1638841792	0
-	"	259	23
-	^	259	23
-	.	259	0
-	+	44	11
-	+	258	0
-	+	45	0
-	+	39	16
-	+	41	14
-	+	43	16
-	+	44	11
-	+	45	13
-	+	46	15
-	+	47	0
-	+	258	24
-	+	8	6
-	+	8	27
-	+	8	0
-	+	13	0
-	+	16	36
-	+	16	34
-	+	16	31
-	+	16	11
-	+	16	28
-	+	17	27
-	+	17	28
-	+	15	13
-	+	19	109
-	+	17	28
-	+	19	100
-	+	18	57
-	+	15	35
-	+	10	38
-	+	108	25
-	+	20	0
-	+	21	0
-	+	31	0
-	+	21	26
-	+	21	0
-	+	21	17
-	+	21	43
-	+	21	0
-	+	21	51
-	+	21	54
-	+	21	11
-	+	21	0
-	+	21	22
-	+	258	0
-	+	54	6
-	+	55	0
-	+	54	6
-	+	21	0
-	+	258	54
-	+	258	0
-	+	21	0
-	+	9	0
-	+	10	0
-	+	9	0
-	+	7	0
-	+	9	0
-	+	10	0
-	+	9	0
-	+	11	0
-	+	259	72
-	+	259	0
-	+	259	3
-	+	259	0
-	+	259	72
-	+	259	0
-	+	21	0
-	+	21	30
-	+	21	0
-	+	21	69
-	+	21	0
-	+	21	26
-	+	21	0
-	+	30	0
-	+	259	24
-	+	260	0
-	+	24	0
-	+	30	0
-	+	92	0
-	+	90	15
-	+	30	31
-	+	30	33
-	+	30	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	139	0
-	+	24	14
-	+	24	26
-	+	25	0
-	+	137	1
-	+	24	14
-	+	25	0
-	+	137	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	259	17
-	+	254	0
-	+	259	0
-	n	116	1
-
-> /opt/homebrew/etc/gitconfig
-	*	1638777347	0
-	"	1	0
-
-> ~/.gitconfig
-	*	1638776299	0
-	"	1	0
-	^	4	6
-	.	2	16
-	+	2	16
-
-> ~/.git-credentials
-	*	1638776160	0
-	"	1	0
-
-> ~/.git
-	*	1638776140	0
-	"	1	0
-
-> ~/Desktop/ww/aa/a.txt
-	*	1638775113	0
-	"	1	0
-	^	1	9
-	.	1	0
-	+	1	0
-
 > ~/.ssh/config
-	*	1638772165	0
-	"	8	21
-	^	16	13
-	.	16	12
-	+	1	15
-	+	1	0
-	+	3	15
-	+	4	6
-	+	3	22
+	*	1640871187	0
+	"	10	13
+	^	10	14
+	.	10	13
+	+	1	26
 	+	4	15
-	+	1	17
-	+	10	14
-	+	13	0
-	+	12	22
-	+	16	12
-
-> ~/Spiders/.gitignore
-	*	1638714471	0
-	"	2	10
-	^	2	11
-	.	3	0
-	+	2	11
-	+	3	0
-
-> ~/Spiders/ssr1.py
-	*	1638714054	0
-	"	1	0
-
-> ~/package-lock.json
-	*	1638713043	0
-	"	1	0
-
-> ~/.ssh/configh
-	*	1638583958	0
-	"	1	0
-
-> ~/.tmux.conf
-	*	1638503227	0
-	"	26	0
-	.	81	0
-	+	80	14
-	+	81	0
-
-> ~/Spiders/img_download.py
-	*	1637639886	0
-	"	14	0
-
-> ~/Spiders/cambly.py
-	*	1637639848	0
-	"	1	7
-	.	2	0
-	+	2	0
-
-> ~/NERD_tree_2
-	*	1637639741	0
-	"	105	11
-	.	1	0
-	+	1	0
+	+	10	13
 
 > ~/NERD_tree_1
-	*	1637639366	0
-	"	9	0
+	*	1640780331	0
+	"	5	0
 	.	1	0
-	+	1	0
-
-> ~/Spiders/Lzjt.py
-	*	1637639309	0
-	"	9	43
-
-> ~/Spiders/bilibili.py
-	*	1637639275	0
-	"	1	0
-
-> ~/Spiders/spiders.py
-	*	1637639259	0
-	"	1	0
-
-> ~/Spiders/website.py
-	*	1637639192	0
-	"	22	22
-
-> ~/cambly.py
-	*	1637636174	0
-	"	1	0
-
-> ~/Spiders/.vimrc
-	*	1637635431	0
-	"	1	0
-
-> ~/Spiders/muchong.py
-	*	1637635424	0
-	"	1	14
-	^	37	29
-	.	38	0
-	+	4	0
-	+	37	56
-	+	38	0
-
-> ~/Desktop/LeetCode.md
-	*	1637551449	0
-	"	24	2
-
-> ~/a.py
-	*	1637551340	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	18
-	+	1	2
-	+	1	4
-	+	1	11
-	+	1	0
-
-> ~/.bash_profile
-	*	1637550229	0
-	"	2	38
-	^	2	39
-	.	2	38
-	+	1	20
-	+	2	38
-
-> ~/.bashrc
-	*	1637548667	0
-	"	32	0
-	^	1	30
-	.	121	0
-	+	1	29
-	+	121	0
-
-> ~/Spiders/a.py
-	*	1637548289	0
-	"	1	0
-
-> ~/Spiders/NERD_tree_1
-	*	1637548172	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/Spiders/excel.py
-	*	1637548098	0
-	"	11	4
-	^	4	8
-	.	4	7
-	+	6	0
-	+	5	0
-	+	4	7
-
-> ~/Desktop/git/B-/.git/config
-	*	1637540440	0
-	"	1	0
-
-> ~/.vuerc
-	*	1637537881	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/aa.txt
-	*	1637510385	0
-	"	84	23
-	^	99	0
-	.	98	12
-	+	98	12
-
-> ~/a.cpp
-	*	1637510272	0
-	"	2	0
-	^	3	1
-	.	2	0
-	+	1	18
-	+	5	0
-	+	1	0
-	+	6	12
-	+	7	10
-	+	8	1
-	+	4	0
-	+	3	0
-	+	2	0
-
-> ~/[Vundle] Installer
-	*	1637504925	0
-	"	8	0
-	.	1	0
-	+	15	0
-	+	8	0
-	+	1	0
-
-> ~/.vim/bundle/Vundle.vim/README.md
-	*	1637500412	0
-	"	175	0
-
-> ~/.vim/bundle/Vundle.vim/README
-	*	1637500403	0
-	"	1	0
-
-> ~/.vim/bundle/Vundle.vim/doc/vundle.txt
-	*	1637499908	0
-	"	1	69
-
-> ~/config
-	*	1636604465	0
-	"	1	0
-
-> ~/.dir_colors
-	*	1636602496	0
-	"	1	0
-	^	1	27
-	.	1	26
-	+	1	26
-
-> ~/c=+.cpp
-	*	1636266604	0
-	"	1	0
-
-> ~/c++.cpp
-	*	1636266576	0
-	"	1	0
-	.	1	0
-	+	1	13
-	+	2	0
 	+	1	0
 
 > ~/.zshrc
-	*	1632706210	0
+	*	1640767022	0
+	"	4	41
+	^	16	44
+	.	16	43
+	+	16	43
+
+> ~/Mechine Learning/.gitignore
+	*	1640591191	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	1	2
+	+	2	7
+	+	3	10
+
+> ~/.gitconfig
+	*	1640590334	0
 	"	1	0
-	^	1	175
+
+> ~/.gitignore
+	*	1640590134	0
+	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/.zprofile
-	*	1615984799	0
-	"	2	47
-	.	3	0
+> ~/a
+	*	1640590015	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1640589565	0
+	"	260	25
+	^	260	26
+	.	261	0
+	+	192	16
+	+	194	25
+	+	10	20
+	+	260	50
+	+	260	40
+	+	260	26
+	+	260	52
+	+	260	55
+	+	260	26
+	+	10	0
+	+	9	1
+	+	10	0
+	+	261	24
+	+	261	0
+
+> ~/a.tex
+	*	1640245583	0
+	"	1	9
+	^	1	11
+	.	1	9
+	+	1	9
+
+> ~/Desktop/hometown3/index.html
+	*	1640063708	0
+	"	76	19
+
+> ~/Desktop/hometown3/scenery.html
+	*	1640063418	0
+	"	29	47
+	.	27	0
+	+	27	42
+	+	27	0
+
+> ~/Desktop/hometown3/specialty.html
+	*	1640063374	0
+	"	79	0
+
+> ~/PageHomework/my-hometown/hometown3/specialty.html
+	*	1640063221	0
+	"	24	17
+	^	167	72
+	.	22	0
+	+	68	26
+	+	68	23
+	+	67	0
+	+	43	30
+	+	56	63
+	+	45	28
+	+	46	27
+	+	47	33
+	+	48	39
+	+	49	38
+	+	50	34
+	+	51	39
+	+	52	39
+	+	52	41
+	+	54	39
+	+	55	34
+	+	56	28
+	+	45	76
+	+	56	0
+	+	48	77
+	+	52	306
+	+	52	470
+	+	52	1242
+	+	52	470
+	+	53	0
+	+	52	467
+	+	52	0
+	+	52	470
+	+	58	76
+	+	61	74
+	+	65	1359
+	+	71	73
+	+	74	77
+	+	78	100
+	+	78	1385
+	+	84	76
+	+	87	76
+	+	91	480
+	+	91	795
+	+	92	0
+	+	91	1577
+	+	91	1374
+	+	97	76
+	+	100	79
+	+	105	88
+	+	105	390
+	+	97	73
+	+	100	76
+	+	105	279
+	+	105	1855
+	+	105	1134
+	+	105	0
+	+	105	1134
+	+	100	73
+	+	104	0
+	+	104	1266
+	+	110	76
+	+	113	76
+	+	117	348
+	+	117	1090
+	+	118	0
+	+	123	73
+	+	126	74
+	+	130	313
+	+	130	1207
+	+	130	418
+	+	130	313
+	+	130	550
+	+	130	676
+	+	130	808
+	+	130	940
+	+	130	1072
+	+	131	0
+	+	136	73
+	+	139	75
+	+	143	114
+	+	143	2014
+	+	143	114
+	+	143	276
+	+	143	532
+	+	143	529
+	+	143	780
+	+	143	1364
+	+	143	780
+	+	144	0
+	+	143	1359
+	+	149	70
+	+	152	71
+	+	156	447
+	+	156	1037
+	+	157	0
+	+	175	0
+	+	179	0
+	+	181	51
+	+	191	0
+	+	170	76
+	+	167	71
+	+	22	0
+
+> ~/PageHomework/my-hometown/hometown3/scenery.html
+	*	1640063207	0
+	"	24	17
+	.	22	0
+	+	8	12
+	+	17	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	23	0
+	+	87	7
+	+	86	39
 	+	3	0
+	+	88	110
+	+	91	78
+	+	43	55
+	+	44	100
+	+	43	93
+	+	43	0
+	+	95	1344
+	+	101	95
+	+	104	78
+	+	108	836
+	+	114	95
+	+	117	79
+	+	121	1200
+	+	127	101
+	+	130	75
+	+	134	1091
+	+	140	89
+	+	143	77
+	+	147	517
+	+	147	1318
+	+	148	0
+	+	147	0
+	+	143	78
+	+	153	92
+	+	156	77
+	+	160	1131
+	+	166	95
+	+	169	77
+	+	173	265
+	+	173	1317
+	+	173	633
+	+	174	0
+	+	179	83
+	+	182	74
+	+	186	322
+	+	186	501
+	+	186	1056
+	+	187	0
+	+	191	0
+	+	200	76
+	+	197	71
+	+	214	0
+	+	209	0
+	+	211	51
+	+	221	0
+	+	22	0
+
+> ~/PageHomework/my-hometown/hometown3/index.html
+	*	1640063187	0
+	"	23	21
+	^	43	100
+	.	22	0
+	+	22	0
+	+	23	12
+	+	24	0
+	+	8	0
+	+	3	0
+	+	8	0
+	+	8	33
+	+	17	0
+	+	43	54
+	+	44	66
+	+	43	92
+	+	47	91
+	+	47	0
+	+	48	60
+	+	51	94
+	+	52	66
+	+	55	54
+	+	56	66
+	+	55	103
+	+	55	94
+	+	59	53
+	+	60	69
+	+	63	101
+	+	63	52
+	+	64	72
+	+	67	53
+	+	68	63
+	+	114	0
+	+	123	0
+	+	117	0
+	+	118	0
+	+	120	19
+	+	120	12
+	+	120	0
+	+	120	51
+	+	137	0
+	+	102	26
+	+	103	0
+	+	118	0
+	+	120	0
+	+	119	51
+	+	137	0
+	+	135	0
+	+	87	63
+	+	90	64
+	+	94	795
+	+	98	0
+	+	97	1117
+	+	100	0
+	+	102	0
+	+	110	76
+	+	111	0
+	+	107	71
+	+	8	0
+	+	43	100
+	+	22	0
+
+> ~/PageHomework/static/css/index.css
+	*	1640053711	0
+	"	3	12
+	^	3	13
+	.	3	12
+	+	1	9
+	+	2	3
+	+	8	14
+	+	9	3
+	+	8	13
+	+	9	18
+	+	8	1
+	+	2	18
+	+	8	8
+	+	2	16
+	+	3	14
+	+	9	0
+	+	6	0
+	+	9	19
+	+	2	12
+	+	4	15
+	+	5	22
+	+	9	16
+	+	11	22
+	+	9	16
+	+	10	16
+	+	13	11
+	+	9	12
+	+	13	17
+	+	14	19
+	+	16	26
+	+	16	0
+	+	6	0
+	+	15	9
+	+	14	15
+	+	13	12
+	+	3	12
+
+> ~/PageHomework/index.html
+	*	1640053636	0
+	"	20	24
+	^	17	22
+	.	17	21
+	+	1	6
+	+	2	0
+	+	5	6
+	+	5	10
+	+	2	35
+	+	5	19
+	+	2	26
+	+	5	62
+	+	5	24
+	+	4	48
+	+	5	1
+	+	5	10
+	+	5	8
+	+	5	20
+	+	5	27
+	+	5	1
+	+	5	85
+	+	5	95
+	+	5	8
+	+	5	1
+	+	5	52
+	+	5	1
+	+	5	27
+	+	22	6
+	+	6	0
+	+	5	3
+	+	4	0
+	+	6	27
+	+	20	25
+	+	21	18
+	+	7	31
+	+	10	31
+	+	13	31
+	+	16	25
+	+	7	26
+	+	6	13
+	+	7	30
+	+	10	30
+	+	13	30
+	+	16	30
+	+	3	70
+	+	7	36
+	+	22	7
+	+	7	33
+	+	8	25
+	+	9	0
+	+	8	21
+	+	11	24
+	+	12	0
+	+	11	39
+	+	14	27
+	+	15	0
+	+	14	39
+	+	17	24
+	+	18	0
+	+	17	21
+
+> ~/PageHomework/static/luxy.js
+	*	1640049337	0
+	"	3	0
+	^	204	2
+	.	19	0
+	+	204	1
+	+	19	0
+
+> ~/.vim/bundle/sparkup/README.md
+	*	1640009143	0
+	"	22	0
+
+> ~/main.tex
+	*	1640008686	0
+	"	1	0
+	^	1	10
+	.	1	0
+	+	1	10
+	+	1	0
+
+> ~/Spiders/readme.md
+	*	1639820259	0
+	"	1	15
+	^	1	20
+	.	1	0
+	+	1	20
+	+	1	0
+
+> ~/Spiders/.gitignore
+	*	1639819147	0
+	"	1	7
+	^	1	8
+	.	2	0
+	+	1	9
+	+	1	11
+	+	1	3
+	+	2	0
+
+> ~/.ssh/id_rsa.pub
+	*	1639818436	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.ideavimrc
+	*	1639742194	0
+	"	26	16
+	^	26	17
+	.	26	16
+	+	25	22
+	+	26	16
+
+> ~/Spiders/SSR1.json
+	*	1639739778	0
+	"	922	8
+	^	3	20
+	.	923	0
+	+	48	0
+	+	382301	0
+	+	5342	0
+	+	1252600	0
+	+	923	0
+	+	3	0
+	+	923	0
+
+> ~/Spiders/SSR1.
+	*	1639662079	0
+	"	1	0
+
+> ~/.zsh
+	*	1639493157	0
+	"	1	0

@@ -6,8 +6,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'preservim/nerdtree'
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
+Plugin 'lervag/vimtex'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -189,6 +188,8 @@ set guifont=Monaco:h10
 ":inoremap ` ``<ESC>i
 "
 ":inoremap * **<ESC>i
+" 将Esc键映射为jj
+inoremap jj <Esc>
 
 " 每行超过80个的字符用下划线标示
 ""au BufRead,BufNewFile *.s,*.asm,*.h,*.c,*.cpp,*.java,*.cs,*.lisp,*.el,*.erl,*.tex,*.sh,*.lua,*.pl,*.php,*.tpl,*.py,*.rb,*.erb,*.vim,*.js,*.jade,*.coffee,*.css,*.xml,*.html,*.shtml,*.xhtml Underlined /.\%81v/
